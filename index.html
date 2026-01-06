@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma da página como Português do Brasil para melhor acessibilidade e SEO -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres para UTF-8, garantindo que todos os caracteres sejam exibidos corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para garantir que a página seja responsiva em diferentes dispositivos -->
+    <title>Voo Nobre - Sua Agência de Viagens</title>
+    <!-- Título que aparece na aba do navegador -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><!-- Link para a biblioteca Font Awesome, usada para ícones -->
+    <link rel="stylesheet" href="stylerevisado.css">
+    <!-- Link para o arquivo CSS personalizado que estiliza a página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link para a fonte 'Montserrat' do Google Fonts, usada para o texto -->
+    <link rel="icon" href="imgs/ico.png" type="image/x-icon">
+      <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17854922218"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17854922218');
+</script>
+</head>
+</head>
+
+<body>
+    <header>
+        <!-- Cabeçalho da página, fixo no topo -->
+        <div class="container">
+            <!-- Container para centralizar e limitar a largura do conteúdo do cabeçalho -->
+            <nav>
+                <!-- Barra de navegação -->
+                <div class="logo">
+                    <!-- Contêiner para o logo -->
+                    <img src="imgs/RETO_1.png" alt="Logo Voo Nobre" class="logo-img">
+                    <!-- Imagem do logo da Voo Nobre -->
+                </div>
+
+                <ul class="nav-links">
+                    <!-- Lista de links de navegação -->
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#differential">Diferencial</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="https://agencia.iddas.com.br/so/ek4wtprx">Orçamento</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+
+                <div class="hamburger" aria-label="Abrir menu de navegação">
+                    <!-- Ícone de hambúrguer para menu mobile -->
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <!-- Conteúdo principal da página -->
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <!-- Seção de destaque (Hero Section) -->
+            <div class="hero-content">
+                <!-- Conteúdo textual e botão da Hero Section -->
+                <h2>Aqui, sua Viagem é Tratada com Nobreza!</h2>
+                <!-- Título principal -->
+                <p>Descubra destinos incríveis e viva experiências inesquecíveis com nossa agência especializada</p>
+                <!-- Subtítulo/descrição -->
+                <a href="https://agencia.iddas.com.br/so/ek4wtprx"
+                    class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <!-- Botão de contato via WhatsApp -->
+                    <i class=""></i>Seu orçamento aqui!
+                </a>
+            </div>
+        </section>
+
+        <!-- MODERN CAROUSEL SECTION -->
+        <section class="modern-carousel-section" id="differential">
+            <!-- Seção do carrossel moderno, destacando os diferenciais/serviços -->
+            <div class="section-title">
+                <!-- Título da seção -->
+                <h2 class="diferencial">O que oferecemos</h2>
+            </div>
+
+            <div class="modern-carousel-container">
+                <!-- Contêiner principal do carrossel -->
+                <div class="carousel-viewport">
+                    <!-- Viewport para o carrossel, que esconde o conteúdo extra -->
+                    <div class="modern-carousel-track" id="carouselTrack" style="--card-width: 280px;">
+                        <!-- Trilha do carrossel onde os cards se movem -->
+                        <!-- Cards serão duplicados e inseridos aqui via JavaScript para o efeito infinito -->
+                        <!-- Conteúdo original dos cards -->
+                        <div class="modern-carousel-card" data-original-index="0">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-plane-departure"></i>
+                                    <!-- Ícone de avião -->
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Emissão de Passagens Aéreas</h3>
+                                <p class="card-description">
+                                    Emitimos passagens nacionais e internacionais com agilidade, sempre buscando as melhores tarifas e horários para sua viagem.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="1">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-hotel"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Reservas de Hospedagem</h3>
+                                <p class="card-description">
+                                    Selecionamos e reservamos acomodações de qualidade, de acordo com seu perfil e orçamento, em qualquer lugar do mundo.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="2">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-car"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Traslados e Transporte</h3>
+                                <p class="card-description">
+                                    Oferecemos soluções completas de transporte, incluindo traslados, aluguel de veículos e serviços executivos com conforto e pontualidade.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="3">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-suitcase-rolling"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Montagem de Pacotes Personalizados</h3>
+                                <p class="card-description">
+                                    Criamos pacotes sob medida que combinam voos, hospedagem, passeios e muito mais, de acordo com os seus objetivos de viagem.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="4">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-passport"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Assessoria com Documentação</h3>
+                                <p class="card-description">
+                                    Orientamos sobre vistos, passaportes e toda a documentação necessária, garantindo tranquilidade durante o planejamento.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="5">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Passeios e Experiências</h3>
+                                <p class="card-description">
+                                    Sugerimos e reservamos atividades, tours e experiências autênticas para tornar sua viagem ainda mais memorável.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="6">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Viagens Corporativas</h3>
+                                <p class="card-description">
+                                    Gerenciamos viagens a trabalho com foco em praticidade, economia e organização, ideal para empresas de todos os portes.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="7">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Suporte e Acompanhamento</h3>
+                                <p class="card-description">
+                                    Nossa equipe oferece suporte antes, durante e após a viagem, com atendimento humanizado e disponível quando você mais precisa.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+
+                        <div class="modern-carousel-card" data-original-index="8">
+                            <div class="card-icon-wrapper">
+                                <div class="card-icon-bg">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Formas de Pagamento Flexíveis</h3>
+                                <p class="card-description">
+                                    Oferecemos diversas opções de pagamento, incluindo parcelamentos, para facilitar a realização da sua viagem dos sonhos.
+                                </p>
+                                <div class="card-gradient"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NAV -->
+            <div class="modern-carousel-nav">
+                <!-- Navegação do carrossel (botões e pontos) -->
+                <button class="modern-carousel-prev" aria-label="Anterior">
+                    <!-- Botão de navegação anterior -->
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="modern-carousel-dots" role="tablist"></div>
+                <!-- Contêiner para os pontos de paginação -->
+                <button class="modern-carousel-next" aria-label="Próximo">
+                    <!-- Botão de navegação próximo -->
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <!-- Seção "Sobre nós" -->
+            <div class="container">
+                <div class="section-title">
+                    <h2>Sobre nós</h2>
+                </div>
+                <div class="about-content">
+                    <div class="bordas">
+                        <!-- Contêiner com bordas estilizadas para o texto "Nossa História" -->
+                        <h3 class="about-title">Nossa História</h3>
+                        <div class="about-text">
+                        <p>A história da Voo Nobre começa muito antes de ser uma agência. Em 2019, surgiu como um sonho simples, mas cheio de propósito: vender passagens para amigos próximos e, nas horas vagas, cair na estrada pelo Brasil.</p> 
+                        <p>Cada destino visitado, cada conversa com clientes e cada experiência vivida ajudaram a construir um conhecimento real, baseado não só em teoria, mas na prática de quem ama viajar e entende o que cada passageiro procura: segurança, bons preços e, principalmente, uma viagem que faça sentido.</p>                       <p>Em 2025, esse sonho virou projeto, e o projeto virou realidade. A Voo Nobre nasceu para transformar o jeito de atender — com escuta, cuidado e aquele toque humano que faz toda a diferença.</p>   
+                        <p>Hoje, colocamos toda essa bagagem a serviço dos nossos clientes, oferecendo não só passagens, mas também hotelaria, seguro viagem, aluguel de carro, chip internacional e suporte completo, do planejamento ao pós-viagem.</p>   
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <!-- Contêiner para a imagem do logo na seção "Sobre nós" -->
+                        <img src="imgs/favicon.svg" alt="Logo Voo Nobre">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials" id="testimonials">
+            <!-- Seção de depoimentos -->
+            <div class="container">
+                <div class="section-title">
+                    <h2>Depoimentos</h2>
+                </div>
+                <div class="testimonial-slider-wrapper">
+                    <!-- Wrapper para o slider de depoimentos -->
+                    <div class="testimonial-slide">
+                        <!-- Slide individual de depoimento -->
+                        <div class="quote-box">
+                            "Serviços são prestados com muito carinho, dedicação e empenho. Voo Nobre vai longe!"</div>
+                        <div class="profile">
+                            <img src="imgs/nandalima.png" alt="Foto de Nanda Lima">
+                            <div class="profile-name">Nanda Lima</div>
+                            <div class="profile-sub">Viagem para Salvador</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="quote-box">
+                            "Aderi a vôo Nobre por indicação de um amigo, encontrei não apenas uma boa prestação de serviço, mas sim um excelente suporte de viagem, bem como preço baixo em relação ao da companhia aérea.
+Recomendo a empresa não pelos preços abaixo do mercado, mas sim pelo atendimento e dedicação ao seu cliente." </div>
+                        <div class="profile">
+                            <img src="imgs/cleoflain.png" alt="Foto de Cleo Flain">
+                            <div class="profile-name">Cléo Flain</div>
+                            <div class="profile-sub">Viagem para Austrália</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="quote-box">
+                            "Agência séria, cumpre os prazos, ótimo atendimento! Recomendo!!" </div>
+                        <div class="profile">
+                            <img src="imgs/viviane.png" alt="Foto de Viviane">
+                            <div class="profile-name">Viviane Camara</div>
+                            <div class="profile-sub">Viagem para o Norte</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="quote-box">
+                            "Comprei toda minha viagem para Europa com o voo Nobre, atendimento rápido, suporte durante a viagem! Excelente agência de viagens." </div>
+                        <div class="profile">
+                            <img src="imgs/fotowagner.jpeg" alt="Foto de Cleo Flain">
+                            <div class="profile-name">Wagner Leandro</div>
+                            <div class="profile-sub">Viagem para Europa</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dots" id="testimonial-dots"></div>
+                <!-- Contêiner para os pontos de paginação dos depoimentos -->
+            </div>
+        </section>
+    
+
+        <!-- FAQ SECTION -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Perguntas Frequentes</h2>
+                </div>
+                <div class="faq-list">
+
+                    <!-- NOVAS PERGUNTAS ADICIONADAS AQUI -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            1. A agência é confiável?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Trabalhamos com responsabilidade, transparência e somos comprometidos com cada etapa da sua viagem. Além disso, utilizamos plataformas seguras para emissão de passagens e temos atendimento humanizado antes, durante e depois da viagem.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            2. Quais serviços vocês oferecem?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oferecemos:</p>
+                            <ul>
+                                <li>Emissão de passagens aéreas nacionais e internacionais</li>
+                                <li>Hospedagem</li>
+                                <li>Seguro viagem</li>
+                                <li>Aluguel de carro</li>
+                                <li>Chip internacional</li>
+                                <li>Montagem de roteiros personalizados</li>
+                                <li>Suporte 100% humanizado</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            3. É mais caro comprar com uma agência do que por conta própria?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Não! Muitas vezes conseguimos valores mais vantajosos, com parcelamentos acessíveis, bagagem incluída e suporte completo, o que evita imprevistos e prejuízos. Você tem a segurança de alguém experiente cuidando de tudo.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            4. Posso parcelar minha viagem?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Parcelamos no cartão de crédito em até 10x (sem juros em alguns casos) e também oferecemos descontos para pagamento à vista via Pix.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            5. A passagem já inclui bagagem despachada?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Depende da tarifa escolhida. Sempre informamos se o valor inclui bagagem de mão (10kg) ou despachada (23kg). Se quiser, também cotamos a opção com bagagem incluída.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            6. Vocês emitem passagens só para o Brasil ou também para o exterior?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Emitimos passagens para destinos nacionais e internacionais! 🌍 Seja para uma viagem curta ou um grande sonho, estamos aqui para ajudar.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            7. Vocês ajudam com check-in ou problemas durante a viagem?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Oferecemos suporte antes e durante a viagem, incluindo auxílio com o check-in, documentação necessária e imprevistos. Você nunca estará sozinho(a).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            8. Preciso de visto ou passaporte? Vocês orientam nisso?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Informamos se o destino exige visto, passaporte ou vacinas e damos toda a orientação necessária para que você viaje com segurança e sem surpresas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            9. Posso comprar para outra pessoa?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Claro! Emitimos passagens para terceiros desde que as informações estejam corretas (nome completo e documento válido). Também ajudamos com envio do bilhete.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            10. Como entro em contato com vocês?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Atendemos pelo WhatsApp, Instagram, telefone e e-mail. Nosso atendimento é rápido, humano e sempre com carinho!</p>
+                        </div>
+                    </div>
+                    <!-- FIM DAS NOVAS PERGUNTAS -->
+
+                </div>
+            </div>
+        </section>
+
+         <!-- Form Section -->
+    <section class="form-section" id="contact">
+        <div class="form-container">
+            <div class="section-title">
+                <h2>Fale Conosco</h2>
+                <p style="padding: 15px;">Preencha o formulário abaixo e entraremos em contato em breve</p>
+            </div>
+            
+            <form id="contactForm" class="contact-form">
+
+                <div class="form-grid">
+                    <!-- Coluna esquerda - Nome e Email -->
+                    <div class="form-column">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <!-- Coluna direita - Telefone e Dúvida -->
+                    <div class="form-column">
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Qual sua dúvida ou necessidade?</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <!-- Elemento para exibir mensagens de feedback -->
+            <div id="form-message" class="form-message"></div>
+        </div>
+    </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+            <!-- Seção de contato -->
+            <div class="container">
+                <h2>Pronto para sua próxima aventura?</h2>
+                <p>Entre em contato conosco e deixe o resto com a gente!</p>
+                <a href="https://wa.me/5521995175957?text=Ol%C3%A1%21+Acabei+de+visitar+a+p%C3%A1gina+da+Voo+Nobre+e+fiquei+interessado%28a%29+nos+servi%C3%A7os+de+viagem.+Gostaria+de+solicitar+um+or%C3%A7amento+personalizado.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                    class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <!-- Botão de contato via WhatsApp -->
+                    <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- Rodapé da página -->
+        <div class="container">
+            <div class="footer-content">
+                <!-- Conteúdo do rodapé dividido em colunas -->
+                <div class="footer-column">
+                    <!-- Primeira coluna do rodapé -->
+                    <h3>Voo Nobre</h3>
+                    <p>Desde 2019 criando viagens incríveis.</p>
+                    <div class="social-links">
+                        <!-- Links para redes sociais -->
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/voo.nobre/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <!-- Segunda coluna do rodapé (Links Rápidos) -->
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#differential">Diferencial</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                        <li><a href="#contact">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <!-- Terceira coluna do rodapé (Contato) -->
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> R. Cel. Bernardino de Melo - Centro, Nova Iguaçu - RJ, 26255-140</p>
+                    <p><i class="fas fa-phone"></i> (21) 99517-5957</p>
+                    <p><i class="fas fa-envelope"></i> viaje@voonobre.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <div class="whatsapp-float">
+        <a href="https://api.whatsapp.com/send/?phone=5521995175957&text=Ol%C3%A1%21+Acabei+de+visitar+a+p%C3%A1gina+da+Voo+Nobre+e+fiquei+interessado%28a%29+nos+servi%C3%A7os+de+viagem.+Gostaria+de+solicitar+um+or%C3%A7amento+personalizado.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</body>
+
+</html>
